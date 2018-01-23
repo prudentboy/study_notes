@@ -1,3 +1,56 @@
+# Markdown Learning #
+
+## try it the first time ##
+
+### Introduction ###
+
+I'm sleepy
+now.
+
+Coding is painful
+
+but funny  
+dont u think so
+
+I wanna print a **bold** word now.  
+And then a *Italic* word now.
+
+OK, as a programmer, let's try the code format.
+
+    #include<stdio.h>
+
+    int main()
+    {
+		printf("Hello world\n.");
+		return 0;
+	}
+
+It's great, isn't it?
+
+>It's never too late to learn.
+
+But it sucks when you don't understand the thing you learn.
+
+Title
+=
+
+中文标题
+===
+
+中文小标题
+-
+
+-----
+
+- 语法
+- 练习
+- 休息
+- 睡眠
+  + 还不去看电影
+  + 让我睡觉
+  + 困死我了
+  + 啊啊啊啊
+
 # Markdown 学习笔记 #
 参考资料：
 - [图灵社区:怎样使用Markdown](http://www.ituring.com.cn/article/504)
