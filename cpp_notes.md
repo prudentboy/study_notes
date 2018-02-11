@@ -14,3 +14,7 @@
 > string c = string(100, '6');  
 
 2. 操作
+
+3. 高级
+- 判断字符串是否回文
+> return equal(str.begin(), str.begin() + str.length()/2, str.rbegin());
