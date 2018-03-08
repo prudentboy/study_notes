@@ -1,5 +1,17 @@
 ## C++学习笔记 ##
 
+### 内置变量 ###
+1. 变量类型的最大最小值
+- C++:  
+> #include <limits>
+> *Type* min = std::numeric_limits<*Type*>::min();
+> *Type* max = std::numeric_limits<*Type*>::max();
+- C:  
+> #include <limits.h>
+> int min = INT_MIN, max = INT_MAX;
+> float fmin = FLT_MIN, fmax = FLT_MAX;
+> double dmin = DBL_MIN, dmax = DBL_MAX;
+
 ### 字符串 ###
 1. 初始化
 - 默认初始化为空字符串
