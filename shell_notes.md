@@ -23,6 +23,10 @@ vim /etc/passwd #修改对应用户的响应行即可，需要root权限，需�
 /sbin/sysctl -w net.ipv4.tcp_timestamps=1
 /sbin/sysctl -w net.ipv4.tcp_tw_recycle=1
 ```
+04. ifconfig：查看本机ip地址
+```
+ip=$(/sbin/ifconfig |grep "inet addr" |awk '{split($2,array,":");print array[2];exit}')
+```
 
 ### 常用命令 ###
 01. ps: 查看进程  
