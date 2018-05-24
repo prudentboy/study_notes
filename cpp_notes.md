@@ -31,7 +31,12 @@
 > string b = a;
 > string c = string(100, '6');  
 
-2. 操作
+2. 赋值
+- assign
+  + clear + set_new_value
+> string A; A.assign("new_string_value1");
+> string B; B.assign(A);
+> char[20] = "new_string_value2"; B.assign(char, 17);
 
 3. 高级
 - 判断字符串是否回文
