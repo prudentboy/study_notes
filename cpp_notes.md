@@ -50,6 +50,15 @@
 - 判断字符串是否回文
 > return equal(str.begin(), str.begin() + str.length()/2, str.rbegin());
 
+### 踩坑记录 ###
+1. std::copy
+- 使用copy时要注意拷贝对象的空间大小
+```
+std::vector<int> a(1,1);
+std::vector<int> b(5,0);
+std::copy(b.begin(), b.end(), a.begin()); // 出现段错误，因为a没有足够存放b的空间
+```
+
 ### C++1x学习笔记 ###
 #### 弃用特性（不建议再使用） ####
 1. 弃用关键字/操作
